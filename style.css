@@ -1,0 +1,33 @@
+h1, h2, h3, p {
+    color: #4D392E;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+  background-color: #E1BDB5;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: #4D392E;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #B28966; 
+}
+
