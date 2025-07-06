@@ -4,7 +4,7 @@ h1, h2, h3, p {
 }
 
 header {
-  background-color: #E1BDB5;
+  background-color: #d4b6a3;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -31,3 +31,41 @@ nav a:hover {
   color: #B28966; 
 }
 
+.hero {
+  background-color: #FDF6F2;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
+  background-color: #d4b6a3;
+}
+
+.service {
+  background-color: #F3E6DC;
+  border-radius: 8px;
+  margin: 1rem;
+  flex: 1 1 250px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.service:hover {
+  transform: translateY(-5px);
+  background-color: #E9D5C9;
+}
