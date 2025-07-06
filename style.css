@@ -69,3 +69,31 @@ nav a:hover {
   transform: translateY(-5px);
   background-color: #E9D5C9;
 }
+
+.cta-update {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #FDF6F2;
+}
+
+#cta-input {
+  padding: 0.5rem;
+  width: 60%;
+  max-width: 400px;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+#update-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  background-color: #4D392E;
+  color: #f1e9e4;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#update-btn:hover {
+  background-color: #B28966;
+}
